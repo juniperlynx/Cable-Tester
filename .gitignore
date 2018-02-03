@@ -1,0 +1,2 @@
+# Ignore indermediate compile results from avr-gcc
+*.elf
