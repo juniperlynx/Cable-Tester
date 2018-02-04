@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/juniper/Documents/Projects/Cable Tester/Master/Cable Test Master.sch</source>
-    <date>Wed 17 Jan 2018 09:00:06 PM MST</date>
+    <source>/home/juniper/Documents/Projects/Cable Tester/Kicad Files/Master/Cable Test Master.sch</source>
+    <date>Sun 04 Feb 2018 01:20:13 PM MST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -678,9 +678,6 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="SlideSW">
-      <uri>/home/juniper/Documents/Projects/Cable Tester/Libraries/SlideSW.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
@@ -692,6 +689,9 @@
     </library>
     <library logical="atmel">
       <uri>/usr/share/kicad/library/atmel.lib</uri>
+    </library>
+    <library logical="SlideSW">
+      <uri>/home/juniper/Documents/Projects/Cable Tester/Kicad Files/Libraries/SlideSW.lib</uri>
     </library>
   </libraries>
   <nets>
