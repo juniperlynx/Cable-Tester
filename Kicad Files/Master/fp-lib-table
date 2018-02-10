@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name "Tester Switches")(type KiCad)(uri "/home/juniper/Documents/Projects/Cable Tester/Footprints/Tester_Switches.pretty")(options "")(descr ""))
-  (lib (name 78L05_SOIC)(type KiCad)(uri "/home/juniper/Documents/Projects/Cable Tester/Footprints/78L05_SOIC.pretty")(options "")(descr ""))
-  (lib (name Tester_Connectors)(type KiCad)(uri "/home/juniper/Documents/Projects/Cable Tester/Footprints/Tester_Connectors.pretty")(options "")(descr ""))
+  (lib (name "Tester Switches")(type KiCad)(uri "/home/juniper/Documents/Projects/Cable Tester/Kicad Files/Footprints/Tester_Switches.pretty")(options "")(descr ""))
+  (lib (name 78L05_SOIC)(type KiCad)(uri "/home/juniper/Documents/Projects/Cable Tester/Kicad Files/Footprints/78L05_SOIC.pretty")(options "")(descr ""))
+  (lib (name Tester_Connectors)(type KiCad)(uri "/home/juniper/Documents/Projects/Cable Tester/Kicad Files/Footprints/Tester_Connectors.pretty")(options "")(descr ""))
 )
