@@ -3,7 +3,7 @@
   (general
     (links 131)
     (no_connects 0)
-    (area 105.560536 62.307 166.115324 129.43804)
+    (area 105.560536 62.307 166.084524 129.55524)
     (thickness 1.6)
     (drawings 6)
     (tracks 605)
@@ -2131,10 +2131,10 @@
     (pad 1 thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers))
   )
 
-  (gr_text "By Juniper 01/29/2018" (at 143.002 123.571) (layer F.SilkS)
+  (gr_text "By Juniper 02/09/2018" (at 143.002 123.571) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text "Cable Tester Master v0.1" (at 143.256 121.793) (layer F.SilkS)
+  (gr_text "Cable Tester Master v0.2" (at 143.256 121.793) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_line (start 162.56 63.5) (end 162.56 125.73) (angle 90) (layer Edge.Cuts) (width 0.15))
