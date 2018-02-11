@@ -6,9 +6,9 @@ help:
 
 hex:
 	avr-gcc -Os -mmcu=attiny84 -c cabletester.c 
-	avr-gcc -mmcu=attiny84 -o cabletester.elf cabletester.o 
+	avr-gcc -mmcu=attiny24 -o cabletester.elf cabletester.o 
 	avr-objcopy -O ihex cabletester.elf cabletester.hex
 
 flash:
-	avrdude -c usbtiny -p attiny84 -U flash:w:cabletester.hex
+	avrdude -c usbtiny -p attiny24 -U flash:w:cabletester.hex
 

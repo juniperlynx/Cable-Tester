@@ -56,8 +56,8 @@ void testerInit(void) {
 // Sets cable tester output pins to binary number given as pinState
 void testerOut(int pinState) {
     // Bottom half of pinState to PORTA, top to PORTB
-    PORTA = pinState & ((1 << 8) - 1);
-    PORTB = (PORTB & ~_BV(PB0)) | ((pinState & (1 << 8)) >> 8);
+    PORTA = ~(pinState & ((1 << 8) - 1));
+    PORTB = (PORTB | _BV(PB0)) & ~((pinState & (1 << 8)) >> 8);
 }
 
 // Blinks the Activity light on the cable tester for the specified time
