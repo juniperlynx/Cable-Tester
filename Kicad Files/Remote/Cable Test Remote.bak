@@ -481,7 +481,7 @@ Text Label 3100 4900 2    60   ~ 0
 Text Label 3100 5500 2    60   ~ 0
 8
 Text Label 3100 6100 2    60   ~ 0
-G
+S
 Text Label 4400 3300 2    60   ~ 0
 1
 Text Label 4500 3300 2    60   ~ 0
@@ -499,7 +499,7 @@ Text Label 5000 3300 2    60   ~ 0
 Text Label 5100 3300 2    60   ~ 0
 8
 Text Label 5400 3300 2    60   ~ 0
-G
+S
 Text Label 5700 3300 2    60   ~ 0
 1
 Text Label 5800 3300 2    60   ~ 0
@@ -513,5 +513,5 @@ Text Label 6100 3300 2    60   ~ 0
 Text Label 6200 3300 2    60   ~ 0
 6
 Text Label 6500 3300 2    60   ~ 0
-G
+S
 $EndSCHEMATC

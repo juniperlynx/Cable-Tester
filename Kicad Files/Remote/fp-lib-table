@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Tester_Connectors)(type KiCad)(uri "/home/juniper/Documents/Projects/Cable Tester/Kicad Files/Footprints/Tester_Connectors.pretty")(options "")(descr ""))
+)
