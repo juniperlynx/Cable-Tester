@@ -191,7 +191,7 @@ F 1 "BSS84" H 9150 2250 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 8700 2400 50  0001 C CNN
 F 3 "" H 8500 2300 50  0000 C CNN
 	1    8500 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L R R1
@@ -590,7 +590,7 @@ F 1 "BSS84" H 8150 2250 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 7900 2400 50  0001 C CNN
 F 3 "" H 7700 2300 50  0000 C CNN
 	1    7700 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q7
@@ -601,7 +601,7 @@ F 1 "BSS84" H 7350 2250 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 7100 2400 50  0001 C CNN
 F 3 "" H 6900 2300 50  0000 C CNN
 	1    6900 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q6
@@ -612,7 +612,7 @@ F 1 "BSS84" H 6550 2250 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6300 2400 50  0001 C CNN
 F 3 "" H 6100 2300 50  0000 C CNN
 	1    6100 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q5
@@ -623,7 +623,7 @@ F 1 "BSS84" H 5750 2250 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5500 2400 50  0001 C CNN
 F 3 "" H 5300 2300 50  0000 C CNN
 	1    5300 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q4
@@ -634,7 +634,7 @@ F 1 "BSS84" H 4950 2250 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4700 2400 50  0001 C CNN
 F 3 "" H 4500 2300 50  0000 C CNN
 	1    4500 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q3
@@ -645,7 +645,7 @@ F 1 "BSS84" H 4150 2250 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3900 2400 50  0001 C CNN
 F 3 "" H 3700 2300 50  0000 C CNN
 	1    3700 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q2
@@ -656,7 +656,7 @@ F 1 "BSS84" H 3350 2250 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3100 2400 50  0001 C CNN
 F 3 "" H 2900 2300 50  0000 C CNN
 	1    2900 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q1
@@ -667,6 +667,6 @@ F 1 "BSS84" H 2550 2250 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 2300 2400 50  0001 C CNN
 F 3 "" H 2100 2300 50  0000 C CNN
 	1    2100 2300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
