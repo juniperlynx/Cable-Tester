@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/juniper/Documents/Projects/Cable Tester/Kicad Files/Remote/Cable Test Remote.sch</source>
+    <date>Thu 22 Feb 2018 08:11:45 PM MST</date>
+    <tool>Eeschema 4.0.2+dfsg1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Cable Tester, Remote End</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2018-01-06</date>
+        <source>Cable Test Remote.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>RJ12</value>
+      <footprint>Tester_Connectors:RJ12_SHLD</footprint>
+      <libsource lib="conn" part="RJ12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5322D1</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RJ45</value>
+      <footprint>Tester_Connectors:RJ45_SHLD</footprint>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5323DE</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532417</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532468</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532668</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A53266E</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A53277C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532782</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A53278E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532794</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532AB8</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532ABE</tstamp>
+    </comp>
+    <comp ref="LED6">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532ACA</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532AD0</tstamp>
+    </comp>
+    <comp ref="LED7">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532ADC</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532AE2</tstamp>
+    </comp>
+    <comp ref="LED8">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532AEE</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532AF4</tstamp>
+    </comp>
+    <comp ref="LED9">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532B72</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A532B78</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="RJ12">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="SHIELD_1" type="passive"/>
+        <pin num="8" name="SHIELD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="RJ45">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/8">
+      <node ref="D8" pin="1"/>
+      <node ref="LED8" pin="2"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="2" name="/1">
+      <node ref="J2" pin="1"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="3" name="/S">
+      <node ref="D9" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="LED9" pin="2"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="4" name="/7">
+      <node ref="J1" pin="7"/>
+      <node ref="LED7" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="5" name="/2">
+      <node ref="J2" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="6" name="/3">
+      <node ref="J2" pin="3"/>
+      <node ref="LED3" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="7" name="/4">
+      <node ref="J2" pin="4"/>
+      <node ref="D4" pin="1"/>
+      <node ref="LED4" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="8" name="/5">
+      <node ref="D5" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="LED5" pin="2"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="9" name="/6">
+      <node ref="D6" pin="1"/>
+      <node ref="LED6" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="LED5" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="LED4" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="LED7" pin="1"/>
+      <node ref="LED9" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="LED3" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="LED6" pin="1"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="LED8" pin="1"/>
+    </net>
+  </nets>
+</export>
