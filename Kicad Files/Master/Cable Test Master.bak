@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 2
 Title "Cable Tester, Master End"
 Date "2018-01-06"
-Rev "0.1"
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""

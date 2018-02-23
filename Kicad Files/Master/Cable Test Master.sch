@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 2
 Title "Cable Tester, Master End"
 Date "2018-01-06"
-Rev "0.2"
+Rev "0.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -639,9 +639,9 @@ $EndComp
 Wire Wire Line
 	3600 3700 3800 3700
 Wire Wire Line
-	3800 4850 3800 3700
+	3800 3700 3800 4850
 Wire Wire Line
-	2300 4850 3800 4850
+	3800 4850 2300 4850
 Wire Wire Line
 	3000 4850 3000 4700
 Wire Wire Line
@@ -761,7 +761,7 @@ D1
 Text Label 6300 3200 0    60   ~ 0
 D2
 Wire Bus Line
-	7200 5300 6200 5300
+	6200 5300 7200 5300
 Entry Wire Line
 	7200 2700 7300 2600
 Entry Wire Line
@@ -773,7 +773,7 @@ Entry Wire Line
 Entry Wire Line
 	7200 3300 7300 3200
 Wire Bus Line
-	7200 2700 7200 5300
+	7200 5300 7200 2700
 Wire Wire Line
 	7300 3200 7400 3200
 Wire Wire Line
