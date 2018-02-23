@@ -2,13 +2,13 @@
 <export version="D">
   <design>
     <source>/home/juniper/Documents/Projects/Cable Tester/Kicad Files/Master/Cable Test Master.sch</source>
-    <date>Sun 04 Feb 2018 01:20:13 PM MST</date>
+    <date>Thu 22 Feb 2018 07:56:38 PM MST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Cable Tester, Master End</title>
         <company/>
-        <rev>0.1</rev>
+        <rev>0.3</rev>
         <date>2018-01-06</date>
         <source>Cable Test Master.sch</source>
         <comment number="1" value=""/>
@@ -327,63 +327,63 @@
       <tstamp>5A5689DF</tstamp>
     </comp>
     <comp ref="R1">
-      <value>160</value>
+      <value>100</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/MOSFET Drive/" tstamps="/5A536F04/"/>
       <tstamp>5A56942B</tstamp>
     </comp>
     <comp ref="R2">
-      <value>160</value>
+      <value>100</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/MOSFET Drive/" tstamps="/5A536F04/"/>
       <tstamp>5A5694EC</tstamp>
     </comp>
     <comp ref="R3">
-      <value>160</value>
+      <value>100</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/MOSFET Drive/" tstamps="/5A536F04/"/>
       <tstamp>5A56952D</tstamp>
     </comp>
     <comp ref="R4">
-      <value>160</value>
+      <value>100</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/MOSFET Drive/" tstamps="/5A536F04/"/>
       <tstamp>5A569570</tstamp>
     </comp>
     <comp ref="R5">
-      <value>160</value>
+      <value>100</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/MOSFET Drive/" tstamps="/5A536F04/"/>
       <tstamp>5A5695CB</tstamp>
     </comp>
     <comp ref="R6">
-      <value>160</value>
+      <value>100</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/MOSFET Drive/" tstamps="/5A536F04/"/>
       <tstamp>5A56961C</tstamp>
     </comp>
     <comp ref="R7">
-      <value>160</value>
+      <value>100</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/MOSFET Drive/" tstamps="/5A536F04/"/>
       <tstamp>5A569665</tstamp>
     </comp>
     <comp ref="R8">
-      <value>160</value>
+      <value>100</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/MOSFET Drive/" tstamps="/5A536F04/"/>
       <tstamp>5A5696B6</tstamp>
     </comp>
     <comp ref="R9">
-      <value>160</value>
+      <value>100</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/MOSFET Drive/" tstamps="/5A536F04/"/>
@@ -678,57 +678,57 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
     </library>
     <library logical="atmel">
       <uri>/usr/share/kicad/library/atmel.lib</uri>
     </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
     <library logical="SlideSW">
       <uri>/home/juniper/Documents/Projects/Cable Tester/Kicad Files/Libraries/SlideSW.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="/MOSFET Drive/DRIVE_5">
-      <node ref="Q5" pin="2"/>
       <node ref="Q14" pin="3"/>
+      <node ref="Q5" pin="3"/>
       <node ref="LED5" pin="2"/>
       <node ref="D5" pin="1"/>
     </net>
     <net code="2" name="/MOSFET Drive/DRIVE_1">
       <node ref="D1" pin="1"/>
       <node ref="Q10" pin="3"/>
-      <node ref="Q1" pin="2"/>
+      <node ref="Q1" pin="3"/>
       <node ref="LED1" pin="2"/>
     </net>
     <net code="3" name="/MOSFET Drive/DRIVE_S">
       <node ref="D9" pin="1"/>
       <node ref="LED9" pin="2"/>
       <node ref="Q18" pin="3"/>
-      <node ref="Q9" pin="2"/>
+      <node ref="Q9" pin="3"/>
     </net>
     <net code="4" name="/MOSFET Drive/DRIVE_8">
       <node ref="Q17" pin="3"/>
       <node ref="D8" pin="1"/>
-      <node ref="Q8" pin="2"/>
+      <node ref="Q8" pin="3"/>
       <node ref="LED8" pin="2"/>
     </net>
     <net code="5" name="/MOSFET Drive/DRIVE_6">
       <node ref="Q15" pin="3"/>
-      <node ref="Q6" pin="2"/>
+      <node ref="Q6" pin="3"/>
       <node ref="D6" pin="1"/>
       <node ref="LED6" pin="2"/>
     </net>
     <net code="6" name="/MOSFET Drive/DRIVE_7">
       <node ref="Q16" pin="3"/>
       <node ref="D7" pin="1"/>
-      <node ref="Q7" pin="2"/>
+      <node ref="Q7" pin="3"/>
       <node ref="LED7" pin="2"/>
     </net>
     <net code="7" name="Net-(J4-Pad5)">
@@ -743,16 +743,16 @@
       <node ref="J4" pin="4"/>
     </net>
     <net code="9" name="/MOSFET Drive/A4">
-      <node ref="Q5" pin="1"/>
       <node ref="J4" pin="3"/>
-      <node ref="Q14" pin="1"/>
+      <node ref="Q5" pin="1"/>
       <node ref="U1" pin="9"/>
+      <node ref="Q14" pin="1"/>
     </net>
     <net code="10" name="/MOSFET Drive/A5">
-      <node ref="J4" pin="1"/>
-      <node ref="Q15" pin="1"/>
-      <node ref="U1" pin="8"/>
       <node ref="Q6" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="Q15" pin="1"/>
+      <node ref="J4" pin="1"/>
     </net>
     <net code="11" name="/MOSFET Drive/A1">
       <node ref="Q11" pin="1"/>
@@ -791,79 +791,79 @@
       <node ref="Q17" pin="2"/>
       <node ref="Q12" pin="2"/>
       <node ref="SW2" pin="7"/>
-      <node ref="J4" pin="6"/>
       <node ref="SW2" pin="8"/>
       <node ref="U2" pin="GND"/>
+      <node ref="J4" pin="6"/>
       <node ref="J3" pin="1"/>
       <node ref="U1" pin="14"/>
     </net>
     <net code="16" name="/MOSFET Drive/DRIVE_2">
       <node ref="Q11" pin="3"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="LED2" pin="2"/>
+      <node ref="Q2" pin="3"/>
       <node ref="D2" pin="1"/>
+      <node ref="LED2" pin="2"/>
     </net>
     <net code="17" name="/MOSFET Drive/B0">
-      <node ref="U1" pin="2"/>
       <node ref="Q9" pin="1"/>
+      <node ref="U1" pin="2"/>
       <node ref="Q18" pin="1"/>
     </net>
     <net code="18" name="/MOSFET Drive/A2">
+      <node ref="Q3" pin="1"/>
       <node ref="U1" pin="11"/>
       <node ref="Q12" pin="1"/>
-      <node ref="Q3" pin="1"/>
     </net>
     <net code="19" name="/MOSFET Drive/A0">
-      <node ref="U1" pin="13"/>
       <node ref="Q1" pin="1"/>
+      <node ref="U1" pin="13"/>
       <node ref="Q10" pin="1"/>
     </net>
     <net code="20" name="/MOSFET Drive/DRIVE_4">
-      <node ref="Q4" pin="2"/>
+      <node ref="D4" pin="1"/>
       <node ref="Q13" pin="3"/>
       <node ref="LED4" pin="2"/>
-      <node ref="D4" pin="1"/>
+      <node ref="Q4" pin="3"/>
     </net>
     <net code="21" name="Net-(LED10-Pad1)">
-      <node ref="R10" pin="1"/>
       <node ref="LED10" pin="1"/>
+      <node ref="R10" pin="1"/>
     </net>
     <net code="22" name="VCC">
+      <node ref="C3" pin="1"/>
       <node ref="C2" pin="1"/>
-      <node ref="U2" pin="VO"/>
-      <node ref="R12" pin="1"/>
-      <node ref="U1" pin="1"/>
       <node ref="J4" pin="2"/>
       <node ref="R11" pin="1"/>
-      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="VO"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R12" pin="1"/>
     </net>
     <net code="23" name="Net-(SW2-Pad5)">
       <node ref="SW2" pin="5"/>
     </net>
     <net code="24" name="/MOSFET Drive/+9V">
+      <node ref="R8" pin="1"/>
       <node ref="R4" pin="1"/>
       <node ref="R5" pin="1"/>
       <node ref="R6" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="R8" pin="1"/>
       <node ref="R9" pin="1"/>
-      <node ref="C1" pin="1"/>
+      <node ref="R7" pin="1"/>
       <node ref="R3" pin="1"/>
       <node ref="R2" pin="1"/>
       <node ref="R1" pin="1"/>
       <node ref="U2" pin="VI"/>
       <node ref="SW2" pin="4"/>
       <node ref="SW2" pin="3"/>
+      <node ref="C1" pin="1"/>
     </net>
     <net code="25" name="/MOSFET Drive/DRIVE_3">
-      <node ref="Q3" pin="2"/>
-      <node ref="Q12" pin="3"/>
       <node ref="LED3" pin="2"/>
       <node ref="D3" pin="1"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="Q3" pin="3"/>
     </net>
     <net code="26" name="/8">
-      <node ref="LED8" pin="1"/>
       <node ref="J1" pin="8"/>
+      <node ref="LED8" pin="1"/>
       <node ref="D8" pin="2"/>
     </net>
     <net code="27" name="/7">
@@ -872,44 +872,44 @@
       <node ref="D7" pin="2"/>
     </net>
     <net code="28" name="/6">
+      <node ref="J1" pin="6"/>
       <node ref="LED6" pin="1"/>
       <node ref="D6" pin="2"/>
-      <node ref="J1" pin="6"/>
       <node ref="J2" pin="6"/>
     </net>
     <net code="29" name="/4">
-      <node ref="J2" pin="4"/>
       <node ref="J1" pin="4"/>
-      <node ref="D4" pin="2"/>
       <node ref="LED4" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J2" pin="4"/>
     </net>
     <net code="30" name="/2">
-      <node ref="J2" pin="2"/>
-      <node ref="LED2" pin="1"/>
-      <node ref="D2" pin="2"/>
       <node ref="J1" pin="2"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="D2" pin="2"/>
     </net>
     <net code="31" name="/5">
-      <node ref="J2" pin="5"/>
       <node ref="LED5" pin="1"/>
+      <node ref="J2" pin="5"/>
       <node ref="J1" pin="5"/>
       <node ref="D5" pin="2"/>
     </net>
     <net code="32" name="/3">
-      <node ref="J2" pin="3"/>
       <node ref="LED3" pin="1"/>
       <node ref="D3" pin="2"/>
+      <node ref="J2" pin="3"/>
       <node ref="J1" pin="3"/>
     </net>
     <net code="33" name="/1">
-      <node ref="D1" pin="2"/>
-      <node ref="J2" pin="1"/>
-      <node ref="LED1" pin="1"/>
       <node ref="J1" pin="1"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D1" pin="2"/>
     </net>
     <net code="34" name="Net-(J3-Pad2)">
-      <node ref="J3" pin="2"/>
       <node ref="SW2" pin="1"/>
+      <node ref="J3" pin="2"/>
       <node ref="SW2" pin="2"/>
     </net>
     <net code="35" name="Net-(R12-Pad2)">
@@ -918,43 +918,43 @@
       <node ref="SW2" pin="6"/>
     </net>
     <net code="36" name="Net-(LED10-Pad2)">
-      <node ref="U1" pin="3"/>
       <node ref="LED10" pin="2"/>
+      <node ref="U1" pin="3"/>
     </net>
-    <net code="37" name="Net-(Q9-Pad3)">
-      <node ref="Q9" pin="3"/>
+    <net code="37" name="Net-(Q9-Pad2)">
+      <node ref="Q9" pin="2"/>
       <node ref="R9" pin="2"/>
     </net>
-    <net code="38" name="Net-(Q8-Pad3)">
-      <node ref="Q8" pin="3"/>
+    <net code="38" name="Net-(Q8-Pad2)">
+      <node ref="Q8" pin="2"/>
       <node ref="R8" pin="2"/>
     </net>
-    <net code="39" name="Net-(Q7-Pad3)">
-      <node ref="Q7" pin="3"/>
+    <net code="39" name="Net-(Q7-Pad2)">
+      <node ref="Q7" pin="2"/>
       <node ref="R7" pin="2"/>
     </net>
-    <net code="40" name="Net-(Q6-Pad3)">
-      <node ref="Q6" pin="3"/>
+    <net code="40" name="Net-(Q6-Pad2)">
       <node ref="R6" pin="2"/>
+      <node ref="Q6" pin="2"/>
     </net>
-    <net code="41" name="Net-(Q5-Pad3)">
-      <node ref="Q5" pin="3"/>
+    <net code="41" name="Net-(Q5-Pad2)">
       <node ref="R5" pin="2"/>
+      <node ref="Q5" pin="2"/>
     </net>
-    <net code="42" name="Net-(Q4-Pad3)">
+    <net code="42" name="Net-(Q4-Pad2)">
       <node ref="R4" pin="2"/>
-      <node ref="Q4" pin="3"/>
+      <node ref="Q4" pin="2"/>
     </net>
-    <net code="43" name="Net-(Q3-Pad3)">
+    <net code="43" name="Net-(Q3-Pad2)">
       <node ref="R3" pin="2"/>
-      <node ref="Q3" pin="3"/>
+      <node ref="Q3" pin="2"/>
     </net>
-    <net code="44" name="Net-(Q2-Pad3)">
-      <node ref="Q2" pin="3"/>
+    <net code="44" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2"/>
       <node ref="R2" pin="2"/>
     </net>
-    <net code="45" name="Net-(Q1-Pad3)">
-      <node ref="Q1" pin="3"/>
+    <net code="45" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
       <node ref="R1" pin="2"/>
     </net>
   </nets>
