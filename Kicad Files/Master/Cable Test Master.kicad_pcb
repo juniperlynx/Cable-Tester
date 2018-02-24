@@ -3,7 +3,7 @@
   (general
     (links 131)
     (no_connects 0)
-    (area 111.684999 63.424999 162.635001 125.170001)
+    (area 105.560536 62.0022 166.084524 129.25044)
     (thickness 1.6)
     (drawings 10)
     (tracks 606)
@@ -2139,10 +2139,10 @@
   (gr_arc (start 161.925 124.46) (end 162.56 124.46) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 161.925 64.135) (end 161.925 63.5) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 112.395 64.135) (end 111.76 64.135) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "By Juniper 02/09/2018" (at 143.002 123.2662) (layer F.SilkS)
+  (gr_text "By Juniper 02/22/2018" (at 143.002 123.2662) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text "Cable Tester Master v0.2" (at 143.256 121.4882) (layer F.SilkS)
+  (gr_text "Cable Tester Master v0.3" (at 143.256 121.4882) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
 
