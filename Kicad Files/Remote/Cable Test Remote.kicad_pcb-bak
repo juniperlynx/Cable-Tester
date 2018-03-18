@@ -837,7 +837,7 @@
   (gr_text "By Juniper 02/19/2018" (at 103.632 93.726 270) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Cable Tester Remote v0.1" (at 106.172 94.742 270) (layer F.SilkS)
+  (gr_text "Cable Tester Remote v0.2" (at 106.172 94.742 270) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 126.365 146.685) (end 102.235 146.685) (layer Edge.Cuts) (width 0.15))
